@@ -84,7 +84,7 @@ form div{
 } */
 
 
-/*SECTION 1*/
+/*PLAN SECTION*/
 /*FORM*/
 .circle
 {
@@ -161,4 +161,26 @@ form div{
     border-top: gray 2px solid;
 }
 
+/*BUSINESS SECTION*/
+.business .col{
+    margin-top: 0;
+    width: calc((100%) / 3);
+    height: 600px;
+    border: 1px solid black;
+}
+
+.business h3{
+    margin-bottom: 30px;
+}
+
+.col-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+        background-color: red;
+}
+
+.section-img img{
+    max-width: 100%;
+}
 

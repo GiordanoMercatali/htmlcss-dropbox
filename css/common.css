@@ -21,12 +21,15 @@
     background-color: var(--primary-color);
 }
 
+h2{
+    font-size: 36px;
+}
 
 .container section{
     margin: auto;
     margin-bottom: 200px;
-    width: 80%;
-    max-height: 1200px;
+    width: 60%;
+    max-height: 1300px;
     border: 1px black solid;
 }
 
