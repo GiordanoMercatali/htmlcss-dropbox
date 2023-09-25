@@ -111,7 +111,6 @@ form div{
 }
 /*COLUMNS*/
 .col{
-    margin-top: 50px;
     width: calc((100% - 60px) / 3);
     height: 800px;
     border: 1px solid gray;
@@ -120,6 +119,10 @@ form div{
 .col.horizontal{
     width: 100%;
     height: 300px;
+}
+
+.plan .col{
+    margin-top: 50px;
 }
 
 /*COL CONTENT*/
@@ -180,7 +183,81 @@ form div{
         background-color: red;
 }
 
-.section-img img{
-    max-width: 100%;
+/*CUSTOMERS SECTION*/
+.customers h2{
+    margin-bottom: 30px;
 }
 
+/*SECTION CUSTOMERS LIST*/
+.container section.customers-list{
+    margin: auto;
+    margin-bottom: 200px;
+    width: 100%;
+    max-height: 650px;
+    border: 1px black solid;
+}
+
+.customers-list .col:not(.horizontal){
+    margin-top: 0;
+    width: calc(100% / 3);
+    height: 650px;
+    border: 1px solid gray;
+}
+
+.customers-list .col.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: 1px solid gray;
+    background-color: #561256;
+}
+
+.customers-list .line{
+    margin-left: 20px;
+}
+
+.customers-list .section-img{
+    width: 100%;
+    height: calc(100% / 2);
+}
+
+.customers-list .section-img img{
+    max-height: 100%;
+}
+
+.customers-list .section-text{
+    display: inline-block;
+    width: 90%;
+    height: calc(100% / 2);
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.customers-list .section-text p{
+    margin-bottom: 20px;
+}
+
+/*bring-dropbox-business SECTION*/
+.bring-dropbox-business{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.bring-dropbox-business h2{
+    color: brown;
+}
+
+.bring-dropbox-business .rectangle-container {
+    background-color: white;
+    border-color: white;
+    width: 300px;
+}
