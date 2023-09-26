@@ -15,7 +15,6 @@
 
 /*BLUE CONTAINER*/
 .blue-container{
-    border: 1px black solid;
     padding: 5px;
     text-align: center;
     color: white;
@@ -66,6 +65,7 @@ h2{
 
 .col p{
     font-size: 14px;
+    margin-top: 10px;
 }
 
 .bold{
@@ -80,7 +80,7 @@ h2{
 
 .col .blue-container{
     margin: 30px auto;
-    max-width: 60%;
+    max-width: 200px;
 }
 
 /*LINE*/
@@ -100,7 +100,6 @@ h2{
     margin-bottom: 200px;
     width: 60%;
     max-height: 1300px;
-    border: 1px black solid; /*debug*/
 }
 
 .section-text{
