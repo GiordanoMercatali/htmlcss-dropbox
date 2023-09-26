@@ -193,7 +193,7 @@ form div{
     margin-bottom: 20px;
 }
 
-/*bring-dropbox-business SECTION*/
+/*CALL TO ACTION*/
 .bring-dropbox-business{
     width: 100%;
     height: 200px;
@@ -212,3 +212,50 @@ form div{
     border-color: white;
     width: 300px;
 }
+
+/*QUESTIONS*/
+section.questions{
+    margin-top: 400px;
+}
+
+.relative{
+    position: relative;
+}
+
+.questions h4{
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.questions i.fa-angle-down{
+    position: relative;
+    left: 200px;
+    top: 0;
+    opacity: 100;
+}
+
+.questions i.fa-angle-up{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    opacity: 0;
+}
+
+.hover:hover .fa-angle-down{
+    opacity: 0;
+}
+
+.hover:hover .fa-angle-up{
+    opacity: 100;
+}
+
+.hover p{
+    line-height: 0;
+    opacity: 0;
+}
+
+.hover:hover p{
+    line-height: 20px;
+    opacity: 100;
+}
+
