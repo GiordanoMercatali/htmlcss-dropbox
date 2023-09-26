@@ -21,7 +21,7 @@ h1{
 
 /*BLUE CONTAINER*/
 .blue-container{
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     color: white;
     background-color: var(--primary-color);
@@ -86,7 +86,7 @@ img{
 
 .col .blue-container{
     margin: 30px auto;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 /*LINE*/
@@ -97,7 +97,7 @@ img{
 .line{
     width: 20%;
     margin: 30px 0;
-    border-top: gray 2px solid;
+    border-top: gray 1px solid;
 }
 
 /*SECTIONS*/
