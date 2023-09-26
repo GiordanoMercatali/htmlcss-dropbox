@@ -96,6 +96,24 @@ form div{
     border: 1px solid gray;
 }
 /*FORM*/
+.form{
+    display: flex;
+    gap: 10px;
+}
+
+input[type=radio] {
+    appearance: none;
+    padding: 10px;
+    border: 1px gray solid;
+    background-color: white;
+    border-radius:50%;
+ }
+ 
+ input[type=radio]:checked {
+    padding: 6px;
+    border: 5px blue solid;
+ }
+
 .circle
 {
     display: inline-block;
@@ -267,7 +285,8 @@ form div{
 .bring-dropbox-business .rectangle-container {
     background-color: white;
     border-color: white;
-    width: 300px;
+    padding: 10px 0;
+    width: 200px;
 }
 
 /*QUESTIONS*/
@@ -275,10 +294,9 @@ section.questions{
     margin-top: 400px;
 }
 
-.relative{
-    position: relative;
-    top: 0;
-    left: 30rem;
+/*QUESTIONS CONTAINER*/
+.questions-container{
+    width: 80%;
 }
 
 /*HOVER*/
@@ -286,6 +304,7 @@ section.questions{
 .hover{
     border-bottom: 2px gray solid;
     padding: 10px 0;
+    position: relative;
 }
 
 .hover h4{
@@ -323,6 +342,12 @@ section.questions{
 .hover:hover p{
     line-height: 20px;
     opacity: 100;
+}
+
+.relative{
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
 
 /*FOOTER*/
