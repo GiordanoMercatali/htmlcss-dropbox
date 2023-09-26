@@ -37,7 +37,6 @@ h2{
 .col{
     width: calc((100% - 60px) / 3);
     height: 800px;
-    border: 1px solid gray;
 }
 
 .col.horizontal{

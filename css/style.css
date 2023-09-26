@@ -91,6 +91,10 @@ form div{
 
 
 /*PLAN SECTION*/
+
+.plan .col{
+    border: 1px solid gray;
+}
 /*FORM*/
 .circle
 {
@@ -119,15 +123,14 @@ form div{
     max-height: 100%;
 }
 
-/*BUSINESS SECTION*/
-.business .col{
+/*FEATURES SECTION*/
+.features .col{
     margin-top: 0;
     width: calc((100%) / 3);
     height: 600px;
-    border: 1px solid black;
 }
 
-.business h3{
+.features h3{
     margin-bottom: 30px;
 }
 
@@ -135,6 +138,12 @@ form div{
         display: block;
         width: 100%;
         height: 50%;
+}
+
+.col-img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*CUSTOMERS SECTION*/
