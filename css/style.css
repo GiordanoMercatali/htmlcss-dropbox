@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 
+/*UNORDERED LIST*/
 .flex-ul{
     display: flex;
     width: calc(100% / 3);
@@ -33,11 +34,6 @@
     height: 700px;
     background-color: lightblue;
     text-align: center;
-}
-
-h1{
-    padding-top: 48px;
-    font-size: 60px;
 }
 
 .hero-content{
@@ -70,10 +66,6 @@ h1{
     height: calc(100% - 162px);
 }
 
-.hero-img img{
-    max-width: 100%;
-}
-
 /*CONTAINER*/
 .container{
     margin-top: 200px;
@@ -81,20 +73,13 @@ h1{
     height: 400vh;
 }
 
-/* form{
-    display: flex;
-}
-
-form div{
-    margin-right: 10px;
-} */
-
-
 /*PLAN SECTION*/
 
 .plan .col{
     border: 1px solid gray;
+    margin-top: 50px;
 }
+
 /*FORM*/
 .form{
     display: flex;
@@ -131,14 +116,10 @@ input[type=radio] {
     border: 5px solid var(--primary-color);
 }
 
-/*PARTNER SECTION*/
+/*PARTNERS SECTION*/
 .partner .section-img{
     width: 60%;
     height: calc(100% / 2);
-}
-
-.partner .section-img img{
-    max-height: 100%;
 }
 
 /*FEATURES SECTION*/
@@ -156,12 +137,6 @@ input[type=radio] {
         display: block;
         width: 100%;
         height: 50%;
-}
-
-.col-img img{
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 /*CUSTOMERS SECTION*/
@@ -249,11 +224,6 @@ input[type=radio] {
     width: 50%;
     margin: 50px 0 0 50px;
     height: calc(100% / 2);
-}
-
-.customers-list .section-img img{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .customers-list .section-text{

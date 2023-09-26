@@ -13,6 +13,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/*TITLE*/
+h1{
+    padding-top: 48px;
+    font-size: 60px;
+}
+
 /*BLUE CONTAINER*/
 .blue-container{
     padding: 5px;
@@ -24,6 +30,11 @@
 /*H2*/
 h2{
     font-size: 36px;
+}
+
+/*IMAGES*/
+img{
+    max-width: 100%;
 }
 
 /*ROWS*/
@@ -42,10 +53,6 @@ h2{
 .col.horizontal{
     width: 100%;
     height: 300px;
-}
-
-.plan .col{
-    margin-top: 50px;
 }
 
 /*COL CONTENT*/
@@ -118,10 +125,6 @@ h2{
     display: inline-block;
     width: calc(65% - 15px);
     height: calc(100% - 162px);
-}
-
-.section-img img{
-    max-width: 100%;
 }
 
 .rectangle-container{
