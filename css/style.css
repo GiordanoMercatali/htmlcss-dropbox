@@ -21,6 +21,12 @@
     list-style-type: none;
 }
 
+/*MAIN CONTENT*/
+.main{
+    width: 100%;
+    min-height: 410rem;
+}
+
 /*HERO*/
 .hero{
     width: 100%;
@@ -69,7 +75,6 @@ h1{
     max-width: 100%;
 }
 
-/*MAIN CONTENT*/
 /*CONTAINER*/
 .container{
     margin-top: 200px;
@@ -167,10 +172,6 @@ form div{
     background-color: #561256;
 }
 
-.customers-list .line{
-    margin-left: 20px;
-}
-
 .customers-list .section-img{
     width: 100%;
     height: calc(100% / 2);
@@ -222,19 +223,20 @@ section.questions{
     position: relative;
 }
 
-.questions h4{
+/*HOVER*/
+.hover h4{
     display: inline-block;
     margin: 20px 0;
 }
 
-.questions i.fa-angle-down{
+.hover i.fa-angle-down{
     position: relative;
     left: 200px;
     top: 0;
     opacity: 100;
 }
 
-.questions i.fa-angle-up{
+.hover i.fa-angle-up{
     position: absolute;
     left: 200px;
     top: 0;
@@ -259,3 +261,34 @@ section.questions{
     opacity: 100;
 }
 
+/*FOOTER*/
+.footer{
+    width: 100%;
+    height: 30rem;
+    margin-top: 5rem;
+    background-color: black;
+}
+
+.footer-top .row{
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.footer-top .col{
+    margin-top: 0;
+    width: calc((100%) / 7);
+    height: 15rem;
+    border: 1px solid white;
+}
+
+.footer-top *{
+    color: white;
+}
+
+.footer-top p{
+    margin: 5px auto;
+}
+
+.footer-top h3{
+    margin: 15px auto;
+}
