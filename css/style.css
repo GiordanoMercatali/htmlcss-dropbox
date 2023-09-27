@@ -3,6 +3,9 @@
     width: 100%;
     height: 5rem;
     padding: 0 1rem;
+    background-color: white;
+    /* position: fixed;
+    z-index: 9999; */
 }
 
 /*NAV*/
@@ -35,7 +38,7 @@ li a{
 /*HERO*/
 .hero{
     width: 100%;
-    height: 700px;
+    height: 45rem;
     background-color: lightblue;
     text-align: center;
 }
@@ -87,7 +90,7 @@ li a{
 /*FORM*/
 .form{
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 input[type=radio] {
@@ -130,7 +133,7 @@ input[type=radio] {
 .features .col{
     margin-top: 0;
     width: calc((100%) / 3);
-    height: 650px;
+    height: 40rem;
 }
 
 .features h3{
@@ -153,7 +156,7 @@ input[type=radio] {
     margin: auto;
     margin-bottom: 200px;
     width: 100%;
-    max-height: 650px;
+    max-height: 40rem;
 }
 
 .horizontal .blue-container{
@@ -165,7 +168,7 @@ input[type=radio] {
 .customers-list .col:not(.horizontal){
     margin-top: 0;
     width: calc(100% / 3);
-    height: 650px;
+    height: 40rem;
 }
 
 .customers-list .col{
@@ -233,7 +236,7 @@ input[type=radio] {
 .customers-list .section-text{
     display: inline-block;
     width: 80%;
-    height: 150px;
+    height: 10rem;
     text-align: left;
     margin-bottom: 0px;
 }
@@ -245,7 +248,7 @@ input[type=radio] {
 /*CALL TO ACTION*/
 .bring-dropbox-business{
     width: 100%;
-    height: 300px;
+    height: 20rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -259,7 +262,7 @@ input[type=radio] {
 .bring-dropbox-business .rectangle-container {
     background-color: white;
     border-color: white;
-    padding: 10px 0;
+    padding: 1rem 0;
     width: 200px;
 }
 
@@ -277,7 +280,7 @@ section.questions{
 
 .hover{
     border-bottom: 2px gray solid;
-    padding: 10px 0;
+    padding: 1rem 0;
     position: relative;
 }
 
@@ -327,7 +330,7 @@ section.questions{
 /*FOOTER*/
 .footer{
     width: 100%;
-    height: 30rem;
+    height: 26rem;
     margin-top: 100px;
     background-color: black;
 }
@@ -347,7 +350,7 @@ section.questions{
 .footer-top .col{
     margin-top: 0;
     width: calc((60%) / 5);
-    height: 15rem;
+    height: 13rem;
 }
 
 .footer-top *{
