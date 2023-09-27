@@ -14,10 +14,18 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/*TITLE*/
+/* html{
+    font-size: 62.5%;
+} */
+
+/*H*/
 h1{
     padding-top: 3rem;
-    font-size: 60px;
+    font-size: calc(3vw + 1rem);
+}
+
+h2{
+    font-size: calc(1vw + 1rem);
 }
 
 /*BLUE CONTAINER*/
@@ -30,11 +38,6 @@ h1{
 
 .blue-container:hover{
     background-color: rgba(0, 97, 255, 0.7);
-}
-
-/*H2*/
-h2{
-    font-size: 36px;
 }
 
 /*IMAGES*/
@@ -94,6 +97,12 @@ img{
     max-width: 300px;
 }
 
+.col-img{
+    display: block;
+    width: 80%;
+    height: 50%;
+}
+
 /*LINE*/
 .customers-list .line, .footer .line{
     margin-left: 20px;
@@ -132,6 +141,7 @@ img{
     height: calc(100% - 162px);
 }
 
+/*HOVER ON RECTANGLES*/
 .rectangle-container{
     margin-top: 20px;
     width: 100px;

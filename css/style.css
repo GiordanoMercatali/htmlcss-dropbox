@@ -4,8 +4,8 @@
     height: 5rem;
     padding: 0 1rem;
     background-color: white;
-    /* position: fixed;
-    z-index: 9999; */
+    position: fixed;
+    z-index: 9999;
 }
 
 /*NAV*/
@@ -37,12 +37,14 @@ li a{
 
 /*HERO*/
 .hero{
+    padding-top: 5rem;
     width: 100%;
-    height: 45rem;
+    height: 50rem;
     background-color: lightblue;
     text-align: center;
 }
 
+/*HERO CONTENT*/
 .hero-content{
     width: 60%;
     height: 80%;
@@ -140,12 +142,6 @@ input[type=radio] {
     margin-bottom: 30px;
 }
 
-.col-img{
-        display: block;
-        width: 80%;
-        height: 50%;
-}
-
 /*CUSTOMERS SECTION*/
 .customers h2{
     margin-bottom: 30px;
@@ -180,6 +176,7 @@ input[type=radio] {
     flex-wrap: wrap;
 }
 
+/*CUSTOMERS SQUARES*/
 .square{
     width: calc(100% / 2);
     height: calc(100% / 2);
